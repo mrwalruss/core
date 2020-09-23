@@ -61,8 +61,8 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/yookoala/TCPDF.git"
+            "type": "artifact",
+            "url": "https://github.com/tecnickcom/TCPDF/archive/main.zip"
         }
     ],
     "replace": {
@@ -71,6 +71,9 @@
     "config": {
         "platform": {
             "php": "7.0"
+        },
+	"preferred-install": {
+            "*": "dist"
         }
     },
     "autoload": {
