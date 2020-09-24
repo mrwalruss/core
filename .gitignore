@@ -22,6 +22,7 @@ nbproject/
 
 # Dev Dependencies
 /vendor/twbs
+/vendor/*
 
 # examples and tests in the vendor folder
 /vendor/**/tests
